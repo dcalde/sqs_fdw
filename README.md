@@ -1,4 +1,4 @@
-# Amazon SQS Foreign Data Wrapper for PostgreSQL
+# PostgreSQL Foreign Data Wrapper for Amazon SQS
 
 This Foreign Data Wrapper (FDW) allows to receive messages from and send to Amazon Simple Message Service (SQS) via SELECT and INSERT.
 
@@ -48,3 +48,6 @@ VALUES ('a', 1), ('b', 2);
 
 SELECT * FROM multicorn_test;
 ```
+## Licence
+
+[MIT](LICENSE)

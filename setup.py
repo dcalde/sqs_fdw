@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
     author='Daniel Caldeweyher',
     author_email='dcalde@gmail.com',
-    license='Postgresql',
+    license='MIT',
     packages=['sqs_fdw'],
     install_requires=["boto3"],
 )
