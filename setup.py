@@ -1,4 +1,5 @@
-import subprocess from setuptools import setup, find_packages, Extension
+import subprocess 
+from setuptools import setup, find_packages, Extension
 
 setup(
     name='sqs_fdw',
