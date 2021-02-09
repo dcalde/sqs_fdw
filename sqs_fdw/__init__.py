@@ -89,7 +89,7 @@ class SQSForeignDataWrapper(ForeignDataWrapper):
         return 'message_id'
 
     def insert(self, new_values):
-        log_to_postgres(str(new_values))
+        #log_to_postgres(str(new_values))
         self.client.send_message(
             QueueUrl=self.queue_url,
             MessageBody=json.dumps(new_values)
